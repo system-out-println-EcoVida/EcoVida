@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/Logo.jpg" alt="Logo EcoVida" width="200" height="200">
+  <img src="img/89b0811f-a974-477c-b7ae-616e9e21873b.jpg" alt="Logo EcoVida" width="200" height="200">
 </p>
 
 
