@@ -43,7 +43,7 @@ Junte-se a nós nessa missão e descubra como pequenas mudanças podem gerar gra
 
  Clone este repositório:  
    ```bash
-   git clone https://github.com/PedroRoque10/ecovida.git
+   git clone https://github.com/Biel0988/ecovida.git
    ```
 
 ## 👨‍💻 Equipe
