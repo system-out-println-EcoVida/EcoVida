@@ -52,7 +52,7 @@ Junte-se a nós nessa missão e descubra como pequenas mudanças podem gerar gra
   Pedro O   --  Funçao<br>
   Gabriel   --  Funçao<br>
   Murilo    --  Funçao <br>
-  Martins   --  Funçao <br>
+  João Paulo Martins de Castro  --  Líder de projeto <br>
 
 ## 📜 Licença
 
