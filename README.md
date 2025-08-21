@@ -52,6 +52,7 @@ Junte-se a nós nessa missão e descubra como pequenas mudanças podem gerar gra
   Pedro Henrique Oliveira da Silva Pereira -- Analista de Requisitos. <br>
   Gabriel Carbalho Dias da Rocha -- Programador. <br>
   Murilo Henrique da Costa Silva -- Tester. <br>
+  Davi de Brito Simôes -- Tester. <br> 
   João Paulo Martins de Castro -- Líder Técnico. <br>
 
 ## 📜 Licença
