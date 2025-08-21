@@ -48,11 +48,11 @@ Junte-se a nós nessa missão e descubra como pequenas mudanças podem gerar gra
 
 ## 👨‍💻 Equipe
 
-  Pedro     --  Funçao<br>
-  Pedro O   --  Funçao<br>
-  Gabriel   --  Funçao<br>
-  Murilo    --  Funçao <br>
-  João Paulo Martins de Castro  --  Líder de projeto <br>
+  Pedro Roque Braga -- Programador. <br>
+  Pedro Henrique Oliveira da Silva Pereira -- Analista de Requisitos. <br>
+  Gabriel Carbalho Dias da Rocha -- Programador. <br>
+  Murilo Henrique da Costa Silva -- Tester. <br>
+  João Paulo Martins de Castro -- Líder Técnico. <br>
 
 ## 📜 Licença
 
