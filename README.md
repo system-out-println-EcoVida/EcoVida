@@ -42,9 +42,8 @@ Junte-se a nós nessa missão e descubra como pequenas mudanças podem gerar gra
 ## 🛠️ Como Clonar o Projeto
 
  Clone este repositório:  
-   ```bash
-https://github.com/system-out-println-EcoVida/EcoVida.git   ```
-
+```bash
+git clone https://github.com/system-out-println-EcoVida/EcoVida.git
 ## 👨‍💻 Equipe
 
   Pedro Roque Braga -- Programador. <br>
