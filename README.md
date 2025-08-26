@@ -44,7 +44,7 @@ Junte-se a nós nessa missão e descubra como pequenas mudanças podem gerar gra
  Clone este repositório:  
 ```bash
 git clone https://github.com/system-out-println-EcoVida/EcoVida.git
-
+```
 
 ## 👨‍💻 Equipe
 
