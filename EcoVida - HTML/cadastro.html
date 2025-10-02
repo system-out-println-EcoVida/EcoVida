@@ -1,168 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - EcoVida</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #e6f3e6;
-            color: #2e7d32;
-            line-height: 1.6;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 400px;
-            text-align: center;
-            animation: fadeIn 0.5s ease-in-out;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .logo {
-            height: 60px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-            color: #1b5e20;
-        }
-
-        p {
-            font-size: 1rem;
-            margin-bottom: 20px;
-            color: #4a4a4a;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-            text-align: left;
-        }
-
-        .form-group label {
-            display: block;
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: #2e7d32;
-        }
-
-        .form-group input {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #2e7d32;
-            border-radius: 4px;
-            font-size: 1rem;
-            transition: border-color 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .form-group input:focus {
-            outline: none;
-            border-color: #1b5e20;
-            box-shadow: 0 0 5px rgba(27, 94, 32, 0.3);
-        }
-
-        button {
-            width: 100%;
-            background-color: #2e7d32;
-            color: #ffffff;
-            padding: 12px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: 600;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        button:hover {
-            background-color: #1b5e20;
-            transform: translateY(-2px);
-        }
-
-        button:active {
-            transform: translateY(0);
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .container {
-                margin: 20px;
-                padding: 15px;
-            }
-
-            .logo {
-                height: 50px;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .container {
-                max-width: 90%;
-            }
-
-            .form-group input {
-                font-size: 0.9rem;
-            }
-
-            button {
-                font-size: 0.9rem;
-            }
-        }
-    </style>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <img src="logo.png">
-        <h2>Cadastro</h2>
-        <p>Crie sua conta para fazer parte de um planeta mais saudável.</p>
-        <form action="login.html" method="get" aria-label="Formulário de Cadastro">
-            <div class="form-group">
-                <label for="fullName">Nome Completo</label>
-                <input type="text" id="fullName" name="fullName" required aria-required="true" value="João Paulo Martins de Castro">
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="Logo EcoVida com Coração Verde.png" alt="EcoVida Logo" class="logo">
             </div>
-            <div class="form-group">
-                <label for="birthDate">Data de Nascimento</label>
-                <input type="date" id="birthDate" name="birthDate" required aria-required="true" value="1999-07-27">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required aria-required="true" value="joaopaulomartinscastro@gmail.com">
-            </div>
-            <div class="form-group">
-                <label for="username">Nome de Usuário</label>
-                <input type="text" id="username" name="username" required aria-required="true" value="João Martins">
-            </div>
-            <div class="form-group">
-                <label for="password">Senha</label>
-                <input type="password" id="password" name="password" required aria-required="true" value="****">
-            </div>
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="login.html">Entrar</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+        
+    <div class="cadastro-container">
+        <h1>Cadastro</h1>
+        
+        <form class="cadastro-form">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="data-nascimento">Data de Nascimento</label>
+            <input type="date" id="data-nascimento" name="data-nascimento" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="username">Nome de Usuário</label>
+            <input type="text" id="username" name="username" required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
             <button type="submit">Cadastrar</button>
         </form>
     </div>
