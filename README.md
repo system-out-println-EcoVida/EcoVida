@@ -38,7 +38,10 @@ Junte-se a nós nessa missão e descubra como pequenas mudanças podem gerar gra
  ┣ 📜 README.md     # Documentação do projeto
  ┗ 📜 LICENSE       # Licença do projeto
 ```
-
+## link 
+```
+https://68ddf24ca351e31a01d06c6d--dainty-brioche-fdafd9.netlify.app/
+```
 ## 🛠️ Como Clonar o Projeto
 
  Clone este repositório:  
